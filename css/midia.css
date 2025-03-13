@@ -1,0 +1,104 @@
+/* Telas pequenas (smartphones em retrato) */
+@media (max-width: 480px) {
+
+    .titulo-teste h1 {
+        font-size: 15px;
+    }
+
+    .img img {
+        width: 100px;
+    }
+
+}
+
+/* Telas médias (smartphones em paisagem ou pequenos tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .titulo-teste h1 {
+        font-size: 35px;
+    }
+
+    .img img {
+        width: 260px;
+    }
+
+}
+
+/* Telas grandes (tablets e dispositivos maiores) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .img img {
+        width: 260px;
+    }
+}
+
+/* Tablets (Paisagem) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .img img {
+        width: 260px;
+    }
+
+}
+
+/* Desktops pequenos (Laptops, por exemplo) */
+@media (min-width: 1281px) and (max-width: 1440px) {
+
+    .titulo-teste h1 {
+        font-size: 42px;
+    }
+
+    .img img {
+        width: 340px;
+    }
+
+    .links a {
+        font-size: 26px;
+    }
+
+    .container-doacao p {
+        font-size: 18px;
+    }
+
+    .container-doacao h3 {
+        font-size: 44px;
+    }
+
+    .botao-doacao a {
+        font-size: 24px;
+        border: 2px solid rgb(6, 130, 231);
+    }
+
+    .botao-doacao a:hove {
+
+        border: 2px solid rgb(6, 130, 231);
+    }
+}
+
+/* Desktops médios */
+@media (min-width: 1441px) and (max-width: 1600px) {
+
+.titulo-teste{
+    font-size: 30px;
+}
+
+    .img img{
+    width: 470px;
+}
+
+.links a{
+    font-size: 32px;
+}
+
+.botao-doacao a {
+    font-size: 24px;
+}
+
+}
+
+
+/* Desktops grandes (Monitores grandes) */
+@media (min-width: 1601px) {
+
+    
+}
