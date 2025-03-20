@@ -50,24 +50,21 @@
     <br>
     <section class="container-nav-topicos">
         <div id="fundo-nav2">
-          <a href="">Formato</a>
-          <a href="">Integração</a>
-          <a href="">Observações</a>
-          <a href="">Calculadora</a>
+            <div class="tab" onclick="changeContent('teste.html')">Formato</div>
+            <div class="tab" onclick="changeContent('teste2.html')">Integração</div>
+            <div class="tab" onclick="changeContent('teste3.html')">Observações</div>
+            <div class="tab" onclick="changeContent('teste4.html')">Calculadora</div>
         </div>
     </section>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br><section></section>
+    <section class="abas">
+        <iframe id="iframe-content" src="teste.html"></iframe>
+    </section>
+    <script>
+        function changeContent(url) {
+            document.getElementById('iframe-content').src = url;
+        }
+    </script>
 </body>
 
 </html>
