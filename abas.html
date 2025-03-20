@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,7 +29,6 @@
     }
   </style>
 </head>
-
 <body>
 
   <!-- Abas -->
@@ -43,6 +41,12 @@
   <!-- iframe -->
   <iframe id="iframe-content" src="pagina1.html"></iframe>
 
+
+  <!-- função de alteração de conteudo a partir do irl
+   
+       puxando o elemento a partir do id e informando que o src, sempre vai ser igual o url do link que foi selecionado
+  
+  -->
   <script>
     function changeContent(url) {
       document.getElementById('iframe-content').src = url;
@@ -50,5 +54,4 @@
   </script>
 
 </body>
-
 </html>
