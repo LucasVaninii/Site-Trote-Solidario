@@ -1,12 +1,14 @@
 /* Telas pequenas (smartphones em retrato) */
 @media (max-width: 480px) {
 
+     
+
     .titulo-teste h1 {
         font-size: 15px;
     }
 
     .img img {
-        width: 100px;
+        width: 700px;
     }
 
 }
@@ -14,12 +16,29 @@
 /* Telas médias (smartphones em paisagem ou pequenos tablets) */
 @media (min-width: 481px) and (max-width: 768px) {
 
+    .links-img{
+        flex-direction: column;
+    }
+    .links{
+        width: 100%;
+    }
+   .img{
+    width: 100%;
+   }
+
+    #logo {
+        top: 10px;
+        left: 36.5%;
+        z-index: 5;
+        width: 155px;
+    }
+
     .titulo-teste h1 {
-        font-size: 35px;
+        font-size: 20px;
     }
 
     .img img {
-        width: 260px;
+        width: 160px;
     }
 
 }
@@ -27,16 +46,78 @@
 /* Telas grandes (tablets e dispositivos maiores) */
 @media (min-width: 769px) and (max-width: 1024px) {
 
-    .img img {
-        width: 260px;
+    #logo {
+        top: 10px;
+        left: 40.5%;
+        z-index: 5;
+    
     }
+
+    .titulo-teste h1 {
+        margin-top: -20px;
+        font-size: 45px;
+    }
+
+    .img img {
+        width: 280px;
+    }
+
+    .links a {
+        font-size: 24px;
+    }
+
+    .container-doacao p {
+        font-size: 18px;
+    }
+
+    .container-doacao h3 {
+        font-size: 44px;
+    }
+
+    .botao-doacao a {
+        font-size: 20px;
+    }
+
+    .tab{
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 19px;
+    }
+
+
 }
 
 /* Tablets (Paisagem) */
 @media (min-width: 1025px) and (max-width: 1280px) {
 
+    .titulo-teste h1 {
+        font-size: 55px;
+    }
+    
+    .links a {
+        font-size: 28px;
+    }
+
     .img img {
-        width: 260px;
+        width: 345px;
+    }
+
+    .container-doacao p {
+        font-size: 20px;
+    }
+
+    .container-doacao h3 {
+        font-size: 44px;
+    }
+
+    .botao-doacao a {
+        font-size: 24px;
+    }
+
+    .tab{
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 20px;
     }
 
 }
@@ -49,11 +130,11 @@
     }
 
     .img img {
-        width: 340px;
+        width: 440px;
     }
 
     .links a {
-        font-size: 26px;
+        font-size: 27px;
     }
 
     .container-doacao p {
@@ -69,21 +150,9 @@
         border: 2px solid rgb(6, 130, 231);
     }
 
-    .botao-doacao a:hove {
-
+    .botao-doacao a:hover{
         border: 2px solid rgb(6, 130, 231);
     }
-
-    #fundo-nav2 {
-        padding: 18px 9px 18px 9px;
-    }
-
-    .container-nav-topicos a {
-        margin: 30px;
-        font-size: 15px;
-        padding: 9px 14px 9px 14px;
-    }
-
 }
 
 /* Desktops médios */
@@ -105,8 +174,31 @@
         font-size: 24px;
     }
 
+    .container-doacao h3{
+        font-size: 45px;
+   }
+
+    .container-doacao P{
+    font-size: 19px;
+    }
+
+    .container-nav-topicos{
+
+      margin-top: -50px;
+
+    }
+
+    .tab{
+        font-size: 19px;
+    }
+    
+
 }
 
 
 /* Desktops grandes (Monitores grandes) */
-@media (min-width: 1601px) {}
+@media (min-width: 1601px) {
+
+ 
+
+}
