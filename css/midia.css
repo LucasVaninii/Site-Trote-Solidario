@@ -16,15 +16,29 @@
 /* Telas médias (smartphones em paisagem ou pequenos tablets) */
 @media (min-width: 481px) and (max-width: 768px) {
 
+    .navteste{
+        height: 97vh;
+    }
+
     .links-img{
         flex-direction: column;
+        justify-content: space-between;
+        height: 60vh;
     }
+
     .links{
+        margin-top: -20px;
         width: 100%;
+        justify-content: center;
     }
-   .img{
-    width: 100%;
+
+    .img{
+        width: 100%;
    }
+    .img img {
+        width: 345px;
+        margin-bottom: 0px;
+    }
 
     #logo {
         top: 10px;
@@ -34,12 +48,59 @@
     }
 
     .titulo-teste h1 {
-        font-size: 20px;
+        font-size: 37px;
+    }
+
+    .links a {
+        font-size: 26px;
+        margin-bottom: 15px;
     }
 
     .img img {
         width: 160px;
     }
+
+    .container-doacao{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .conteudo-doacao{
+     display: flex;
+     flex-direction: column;
+     margin-left: 0px;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+    }
+
+    .container-doacao p {
+        font-size: 18px;
+        text-align: center;
+        width: 90%;
+    }
+
+    .container-doacao h3 {
+        text-align: center;
+        font-size: 44px;
+    }
+
+    .botao-doacao{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .container-nav-topicos {
+        margin-top:200px;
+        margin-bottom: 55px;
+    }
+
+    .tab{
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 16px;
+    }
+    
 
 }
 
@@ -50,7 +111,7 @@
         top: 10px;
         left: 40.5%;
         z-index: 5;
-    
+
     }
 
     .titulo-teste h1 {
