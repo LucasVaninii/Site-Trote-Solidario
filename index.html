@@ -19,21 +19,21 @@
         </div>
         <div class="links-img">
             <div class="links">
-                <a href="">Faça sua doação</a>
-                <a href="">Objetivo do Projeto</a>
+                <a href="#doacao">Faça sua doação</a>
+                <a href="#dados" onclick="changeContent('objetivo.html')">Objetivo do Projeto</a>
             </div>
             <div class="img">
                 <img src="img/trote.jpg">
             </div>
             <div class="links">
-                <a href="">Formato do Trote</a>
-                <a href="">Gincana do Trote</a>
+                <a href="#dados" onclick="changeContent('formato.html')">Formato do Trote</a>
+                <a href="#dados" onclick="changeContent('gincana.html')">Gincana do Trote</a>
             </div>
 
         </div>
     </div>
     <div class="container-doacao">
-        <div class="conteudo-doacao">
+        <div class="conteudo-doacao" id="doacao">
             <h3>Faça sua doação!</h3>
             <p>Ação do Trote Solidário é uma iniciativa que visa ajudar pessoas em situação de vulnerabilidade,
                 arrecadando alimentos para quem mais precisa. Ao doar, você contribui diretamente para a melhoria
@@ -49,14 +49,14 @@
     </div>
     <section class="container-nav-topicos">
         <div id="fundo-nav2">
-            <div class="tab" onclick="changeContent('teste.html')">Formato</div>
-            <div class="tab" onclick="changeContent('teste2.html')">Integração</div>
-            <div class="tab" onclick="changeContent('teste3.html')">Observações</div>
-            <div class="tab" onclick="changeContent('teste4.html')">Calculadora</div>
+            <div class="tab" onclick="changeContent('formato.html')">Formato</div>
+            <div class="tab" onclick="changeContent('introducao.html')">Introdução</div>
+            <div class="tab" onclick="changeContent('obsercacoes.html')">Observações</div>
+            <div class="tab" onclick="changeContent('calculadora.html')">Calculadora</div>
         </div>
     </section>
-    <section>
-        <iframe id="iframe-content" src="teste.html"></iframe>
+    <section id="dados">
+        <iframe id="iframe-content" src="objetivo.html"></iframe>
     </section>
 </body>
 
