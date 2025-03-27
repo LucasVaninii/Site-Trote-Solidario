@@ -1,18 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Hammersmith+One&family=Lexend:wght@100..900&family=Montserrat:wght@447&family=Readex+Pro:wght@160..700&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     box-sizing: border-box;
-    justify-content: center;
+    justify-content: center
 }
 
 #logo {
-    position: fixed;
+    position: absolute;
     width: 175px;
     top: 10px;
-    left: 43.5%;
+    left: 45%;
     z-index: 5;
+}
 
+#up{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 130, 231);
+    z-index: 5;
+    border-radius: 30px;
+    border: 4px solid rgb(7, 62, 107);
+    right: 15px;
+    bottom: 15px;
+    vertical-align: auto;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#up:hover{
+    background-color: rgb(7, 62, 107);
+    transition: 0.5s;
+}
+
+#up img{
+    width: 65px;
 }
 
 .navteste {
@@ -210,7 +238,7 @@ p {
 
 iframe {
     width: 100%;
-    height: 800px;
+    height: 850px;
     border: none;
 }
 

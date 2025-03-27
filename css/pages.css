@@ -11,14 +11,71 @@ body{
 }
 
 
+/* Calculadora"" */
+
+.container-calculadora{
+    text-align: center;
+    border: 3px solid black;
+    width: 65%;
+    background-color: rgb(56, 151, 230);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.container-calculadora h2{
+    color: white;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.container1-calculadora{
+    margin-right: 70px;
+}
 
 .campos{
-    margin-bottom: 10px;
+    font-weight: bold;
+    border: 3px solid black;
+    margin-bottom: 20px;
     padding: 20px;
+    min-width: 500px;
+    background-color: white;
+    border-radius: 30px;
 }
 
 .campos label{
-    margin-right: 10px;
+    color: rgb(6, 130, 231);
+    margin-right: 20px;
     width: 30px;
 }
-    
+
+.campos input{
+    border-radius: 25px;
+    padding: 8px;
+    border: 2.5px solid black;
+}
+
+#botao-soma{
+    font-family: "Montserrat", serif;;
+    font-size: 22px;
+    margin-bottom: 22px;
+    padding: 10px 35px 10px 35px; 
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+#botao-soma:hover{
+    transition: 0.5s;
+    background-color: rgb(7, 99, 173);
+    border: 1px solid white;
+    color: white;
+}
+
