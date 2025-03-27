@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Hammersmith+One&family=Lexend:wght@100..900&family=Montserrat:wght@447&family=Readex+Pro:wght@160..700&display=swap');
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", serif;
+    flex-direction: column;
+}
+
+
+
+.campos{
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.campos label{
+    margin-right: 10px;
+    width: 30px;
+}
+    

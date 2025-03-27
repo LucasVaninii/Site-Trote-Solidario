@@ -90,6 +90,10 @@
         width: 100%;
     }
 
+    .botao-doacao a{
+        font-size: 22px;
+    }
+
     .container-nav-topicos {
         margin-top:200px;
         margin-bottom: 55px;
