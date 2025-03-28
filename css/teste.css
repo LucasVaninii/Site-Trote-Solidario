@@ -236,8 +236,14 @@ p {
     transition: 0.5s;
 }
 
+#dados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 iframe {
-    width: 100%;
+    width: 80%;
     height: 850px;
     border: none;
 }
