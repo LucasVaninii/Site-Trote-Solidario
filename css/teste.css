@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Hammersmith+One&family=Lexend:wght@100..900&family=Montserrat:wght@447&family=Readex+Pro:wght@160..700&display=swap');
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -18,7 +18,7 @@ body {
     z-index: 5;
 }
 
-#up{
+#up {
     position: fixed;
     display: flex;
     justify-content: center;
@@ -34,12 +34,12 @@ body {
     transition: 0.5s;
 }
 
-#up:hover{
+#up:hover {
     background-color: rgb(7, 62, 107);
     transition: 0.5s;
 }
 
-#up img{
+#up img {
     width: 65px;
 }
 
@@ -83,7 +83,7 @@ body {
     width: 100%;
     justify-content: space-evenly;
     z-index: 1;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 
@@ -236,7 +236,7 @@ p {
     transition: 0.5s;
 }
 
-#dados{
+#dados {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -247,4 +247,3 @@ iframe {
     height: 850px;
     border: none;
 }
-

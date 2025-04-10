@@ -1,7 +1,9 @@
 /* Telas pequenas (smartphones em retrato) */
 @media (max-width: 480px) {
 
-     
+    #logo img {
+        width: 10px;
+    }
 
     .titulo-teste h1 {
         font-size: 15px;
@@ -16,25 +18,34 @@
 /* Telas médias (smartphones em paisagem ou pequenos tablets) */
 @media (min-width: 481px) and (max-width: 768px) {
 
-    .navteste{
+    #logo {
+        width: 10px;
+    }
+
+    #up img {
+        width: 30px;
+    }
+
+    .navteste {
         height: 97vh;
     }
 
-    .links-img{
+    .links-img {
         flex-direction: column;
         justify-content: space-between;
         height: 60vh;
     }
 
-    .links{
+    .links {
         margin-top: -20px;
         width: 100%;
         justify-content: center;
     }
 
-    .img{
+    .img {
         width: 100%;
-   }
+    }
+
     .img img {
         width: 345px;
         margin-bottom: 0px;
@@ -52,60 +63,60 @@
     }
 
     .links a {
-        font-size: 26px;
+        font-size: 20px;
         margin-bottom: 15px;
     }
 
     .img img {
-        width: 160px;
+        width: 130px;
     }
 
-    .container-doacao{
+    .container-doacao {
         flex-direction: column;
         width: 100%;
     }
 
-    .conteudo-doacao{
-     display: flex;
-     flex-direction: column;
-     margin-left: 0px;
-     width: 100%;
-     justify-content: center;
-     align-items: center;
+    .conteudo-doacao {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 
     .container-doacao p {
-        font-size: 18px;
+        font-size: 14px;
         text-align: center;
         width: 90%;
     }
 
     .container-doacao h3 {
         text-align: center;
-        font-size: 44px;
+        font-size: 38px;
     }
 
-    .botao-doacao{
+    .botao-doacao {
         margin-top: 20px;
         width: 100%;
     }
 
-    .botao-doacao a{
-        font-size: 22px;
+    .botao-doacao a {
+        font-size: 19px;
     }
 
     .container-nav-topicos {
-        margin-top:200px;
+        margin-top: 100px;
         margin-bottom: 55px;
     }
 
-    .tab{
+    .tab {
         margin-left: 13px;
         margin-right: 13px;
-        font-size: 19px;
+        font-size: 14px;
         padding: 6px 10px 6px 10px;
     }
-    
+
 
 }
 
@@ -113,15 +124,20 @@
 @media (min-width: 769px) and (max-width: 1024px) {
 
     #logo {
-        top: 10px;
-        left: 40.5%;
+        width: 75px;
+        top: 5px;
+        left: 45.5%;
         z-index: 5;
 
     }
 
+    #up img {
+        width: 40px;
+    }
+
     .titulo-teste h1 {
         margin-top: -20px;
-        font-size: 45px;
+        font-size: 30px;
     }
 
     .img img {
@@ -129,25 +145,25 @@
     }
 
     .links a {
-        font-size: 24px;
-    }
-
-    .container-doacao p {
-        font-size: 18px;
-    }
-
-    .container-doacao h3 {
-        font-size: 44px;
-    }
-
-    .botao-doacao a {
         font-size: 20px;
     }
 
-    .tab{
+    .container-doacao p {
+        font-size: 14px;
+    }
+
+    .container-doacao h3 {
+        font-size: 38px;
+    }
+
+    .botao-doacao a {
+        font-size: 16px;
+    }
+
+    .tab {
         margin-left: 25px;
         margin-right: 25px;
-        font-size: 19px;
+        font-size: 14px;
     }
 
 
@@ -156,12 +172,23 @@
 /* Tablets (Paisagem) */
 @media (min-width: 1025px) and (max-width: 1280px) {
 
-    .titulo-teste h1 {
-        font-size: 55px;
+    #logo {
+        width: 80px;
+        top: 5px;
+        left: 46.2%;
+        z-index: 5;
     }
-    
+
+    #up img {
+        width: 37px;
+    }
+
+    .titulo-teste h1 {
+        font-size: 35px;
+    }
+
     .links a {
-        font-size: 28px;
+        font-size: 23px;
     }
 
     .img img {
@@ -169,21 +196,21 @@
     }
 
     .container-doacao p {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .container-doacao h3 {
-        font-size: 44px;
+        font-size: 38px;
     }
 
     .botao-doacao a {
-        font-size: 24px;
+        font-size: 20px;
     }
 
-    .tab{
+    .tab {
         margin-left: 25px;
         margin-right: 25px;
-        font-size: 20px;
+        font-size: 17px;
     }
 
 }
@@ -191,8 +218,21 @@
 /* Desktops pequenos (Laptops, por exemplo) */
 @media (min-width: 1281px) and (max-width: 1440px) {
 
+
+    #logo {
+        width: 100px;
+        top: 5px;
+        left: 47.5%;
+        z-index: 5;
+    }
+
+    #up img {
+        width: 49px;
+    }
+
     .titulo-teste h1 {
-        font-size: 42px;
+        margin-top: 10px;
+        font-size: 37px;
     }
 
     .img img {
@@ -216,8 +256,12 @@
         border: 2px solid rgb(6, 130, 231);
     }
 
-    .botao-doacao a:hover{
+    .botao-doacao a:hover {
         border: 2px solid rgb(6, 130, 231);
+    }
+
+    .tab {
+        font-size: 18px
     }
 }
 
@@ -246,25 +290,25 @@
         font-size: 24px;
     }
 
-    .container-doacao h3{
+    .container-doacao h3 {
         font-size: 45px;
-   }
-
-    .container-doacao P{
-    font-size: 19px;
     }
 
-    .container-nav-topicos{
-
-      margin-top: -50px;
-
-    }
-
-    .tab{
+    .container-doacao P {
         font-size: 19px;
     }
-    
-    #up img{
+
+    .container-nav-topicos {
+
+        margin-top: -50px;
+
+    }
+
+    .tab {
+        font-size: 19px;
+    }
+
+    #up img {
         width: 50px;
     }
 
@@ -272,8 +316,4 @@
 
 
 /* Desktops grandes (Monitores grandes) */
-@media (min-width: 1601px) {
-
- 
-
-}
+@media (min-width: 1601px) {}
