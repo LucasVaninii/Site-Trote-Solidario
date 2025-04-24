@@ -11,6 +11,7 @@ body {
 }
 
 .container {
+    font-family: "Montserrat", serif;
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -68,3 +69,6 @@ table {
 .vermelha {
     background-color: red;
 }
+
+/* CALCULADORA */
+
