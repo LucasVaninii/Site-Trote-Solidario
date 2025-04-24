@@ -1,4 +1,6 @@
 .container {
+    display: flex;
+    flex-direction: column;
     width: 80%;
     /* 20px em cima e em baixo e automática èsquerda e direto*/
     margin: 20px auto;
@@ -7,10 +9,17 @@
     padding: 20px;
     border-radius: 10px;
     text-align: justify;
+    align-items: center;
 }
 
 h2 {
     text-align: center;
+    background-color: rgb(16, 165, 252);
+    padding: 5px;
+    width: 300px;
+    border-radius: 35px;
+    border-color: rgb(214, 211, 211);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 table tr td {
