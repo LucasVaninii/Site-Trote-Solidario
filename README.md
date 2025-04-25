@@ -2,7 +2,7 @@
 Projeto pessoal desenvolvido para o Trote Solidário da Unifacef, com o objetivo de reunir todas as informações do evento em um único lugar, de forma criativa, acessível e funcional.
 
  Acesse o site
-👉 linkteste.com
+👉 https://lucasvaninii.github.io/Site-Trote-Solidario/
 
  Sobre o projeto
 Este site foi desenvolvido com foco em praticidade e interação, reunindo:
