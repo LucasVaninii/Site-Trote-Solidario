@@ -72,3 +72,29 @@ table {
 
 /* CALCULADORA */
 
+.campos{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    margin: 15px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(16, 165, 252);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.campos label{
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+.campos button{
+    font-family: "Montserrat", serif;
+    font-size: 15px;
+    background-color: rgb(16, 165, 252);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
