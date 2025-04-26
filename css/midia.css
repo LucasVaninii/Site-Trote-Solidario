@@ -1,16 +1,69 @@
 /* Telas pequenas (smartphones em retrato) */
 @media (max-width: 480px) {
 
-    #logo img {
-        width: 10px;
+    .links-img {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 60vh;
+    }
+
+    .links {
+        margin-top: -20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+
+    #logo {
+        top: 10px;
+        left: 36.5%;
+        z-index: 5;
+        width: 135px;
+    }
+
+    #up img {
+        width: 30px;
+    }
+
+    .navteste {
+        height: 97vh;
     }
 
     .titulo-teste h1 {
-        font-size: 15px;
+        font-size: 32px;
+        margin-top: -45px;
+        margin-bottom: 70px;
+    }
+
+    .links a {
+        font-size: 23px;
+        margin-bottom: 30px;
     }
 
     .img img {
-        width: 700px;
+        width: 180px;
+    }
+
+    .container-nav-topicos {
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    .tab {
+        margin-left: 13px;
+        margin-right: 13px;
+        font-size: 14px;
+        padding: 6px 10px 6px 10px;
+    }
+
+    iframe {
+        width: 93%;
+        height: 2000px;
+        border: none;
     }
 
 }
@@ -119,7 +172,7 @@
         font-size: 19px;
     }
 
-    
+
     iframe {
         width: 93%;
         height: 1350px;
@@ -237,7 +290,7 @@
     #up img {
         width: 50px;
     }
-    
+
     iframe {
         width: 93%;
         height: 1250px;
